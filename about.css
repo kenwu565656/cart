@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Raleway;
+    color: rgb(8, 8, 8);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    text-align: center;
+    
+}
+
+#header{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.indexContainer {
+    list-style-type: none;
+    margin: 10px 30px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0a0a0a;
+    
+}
+
+.indexContent {
+    display: grid;
+    color: rgb(248, 245, 245);
+    text-align: center;
+    padding: 10px 10px;
+    border-style:solid;
+    border-width:1px;
+    border-color:azure;
+    text-decoration: none;
+}
+
+.indexContent:hover{
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+div{
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div img{
+    width: 500px;
+    height: 300px;
+}
+div p{
+    text-align: center;
+    padding: 10%;
+
+}
+/*.ndq img{
+    margin: 0px 0px 0px 10%;
+    width: 500px;
+    height: 400px;
+}
+
+.ndq p{
+    margin: 0px 230px 0px 0px;
+    padding: 50px;
+}*/
