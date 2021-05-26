@@ -19,7 +19,7 @@ body {
     padding: 0;
     min-height: 100%;
     text-align: center;
-    
+    size: relative;
 }
 
 #header{
@@ -29,6 +29,7 @@ body {
     width: 100%;
 }
 
+
 .indexContainer {
     list-style-type: none;
     margin: 10px 30px;
@@ -36,7 +37,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f5efef;
+    background-color: #0a0a0a;
     width:100%;
 }
 
@@ -45,7 +46,7 @@ body {
 }
 .indexContent {
     display: grid;
-    color: rgb(12, 12, 12);
+    color: rgb(248, 245, 245);
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -56,76 +57,67 @@ body {
     text-decoration: none;
 }
 
-.textContainer{
-    margin: 10%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-div img{
-    width: 500px;
-    height: 300px;
-}
-.text{
-    text-align: center;
-    padding: 50px;
-}
-.ndq img{
-    margin: 0px 0px 0px 20%;
-    width: 500px;
-    height: 300px;
-}
-
-.ndq h3{
-    margin: 0px 30% 0px 0px;
-    padding: 50px;
-}
 
 
-#footer{
-    text-align: center;
-    background-color: rgb(97, 89, 89);
-    border: rgb(250, 245, 245) solid 1px;
-    height: 200px;
-    width: 100%;
+.first_row{
+    margin: 0px 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
+    
 }
 
-#footer1{
-    padding:15px;
-    border: rgb(8, 8, 8) 1px solid;
+img{
+    border:rgb(219, 207, 207) 5px solid;
 }
 
-#footer a:hover{
-    color: white;
+img:hover{
+    border:rgb(8, 8, 8) 5px solid;
 }
-#footer1 input{
-    width: 80%;
-}
-
-#footer2{
-    padding:15px;
-    border: rgb(8, 8, 8) 1px solid;
+.goods{
+    display: flex;
+    width: 20%;
+    margin: 0px 10%;
 }
 
-#footer2 a{
-    text-decoration: none;
-    margin-top: 20px;
+div p {
+    text-align: right;
 }
 
-#footer3{
-    border: rgb(8, 8, 8) 1px solid;
+
+.total{
+    align-items: center;
 }
 
-#footer3 a{
-    text-decoration: none;
+table, th, td
+{
+    border: 1px solid black;
 }
 
-#privacy a{
-    text-decoration: none;
+table {
+    width: 100%;
 }
 
-#privacy a:hover{
-    color: rgb(139, 131, 131);
+.add{
+    width:55%;
+    height: 20px;
+    background-color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
+
+.add:hover{
+    background-color: grey;
+}
+
+
+.footer{
+    background-color: slategrey;
+    height: 40px;
+}
+
+.bye_sentence{
+    text-align: center;
+    background-color: rgb(179, 144, 144);
+    margin: 3px 0px 0px 0px;
 }

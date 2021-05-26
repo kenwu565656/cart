@@ -57,6 +57,7 @@ for (var i = 0; i < add_button.length; i++)
         table_quantity.value = '1';
         table_quantity.type = 'number';
         table_quantity.class = 'number';
+        table_quantity.min = '1';
         table_quantity.addEventListener('click', function(event)
     {
         calculate();

@@ -36,22 +36,103 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #0a0a0a;
-    
+    background-color: #f5efef;
+    width:100%;
 }
 
+.indexItem{ 
+    width: 25%;
+}
 .indexContent {
     display: grid;
-    color: rgb(248, 245, 245);
+    color: rgb(12, 12, 12);
     text-align: center;
-    padding: 10px 10px;
-    border-style:solid;
-    border-width:1px;
-    border-color:azure;
+    padding: 10px;
     text-decoration: none;
 }
 
 .indexContent:hover{
     color: yellowgreen;
     text-decoration: none;
+}
+
+
+form{
+    border: rgb(8, 8, 8) solid 5px;
+    margin-bottom: 20%;
+    height: 350px;
+    padding: 50px;
+}
+
+label{
+    text-align: left;
+    padding-top: 50px;
+}
+
+form input{
+    width: 30%;
+    margin-bottom: 70px;
+}
+
+#submitButton{
+    width:10%;
+    border: rgb(8, 8, 8) solid 2px;
+    background-color: rgb(97, 89, 89);
+    height: 50px;
+    font-size: large;
+    font-weight: 1000;
+}
+
+#submitButton:hover{
+    background-color: seagreen;
+    color:seashell;
+    border: rgb(8, 8, 8) solid 1px;
+    font-weight: bolder;
+}
+
+#footer{
+    background-color: rgb(97, 89, 89);
+    border: rgb(250, 245, 245) solid 1px;
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footer1{
+    padding:15px;
+    border: rgb(8, 8, 8) 1px solid;
+}
+
+#footer a:hover{
+    color: white;
+}
+#footer1 input{
+    width: 80%;
+}
+
+#footer2{
+    padding:15px;
+    border: rgb(8, 8, 8) 1px solid;
+}
+
+#footer2 a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#footer3{
+    border: rgb(8, 8, 8) 1px solid;
+}
+
+#footer3 a{
+    text-decoration: none;
+}
+
+#privacy a{
+    text-decoration: none;
+}
+
+#privacy a:hover{
+    color: rgb(139, 131, 131);
 }

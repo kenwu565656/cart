@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    position: sticky;
 }
 
 .indexContainer {
@@ -36,22 +37,222 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #0a0a0a;
-    
+    background-color: #f5efef;
+    width:100%;
 }
 
+.indexItem{ 
+    width: 25%;
+}
 .indexContent {
     display: grid;
-    color: rgb(248, 245, 245);
+    color: rgb(12, 12, 12);
     text-align: center;
-    padding: 10px 10px;
-    border-style:solid;
-    border-width:1px;
-    border-color:azure;
+    padding: 10px;
     text-decoration: none;
 }
 
 .indexContent:hover{
     color: yellowgreen;
     text-decoration: none;
+}
+
+#homePagephotoContainer{
+    position: relative;
+    color: white;
+}
+#homePagephoto{
+    margin: 10px;
+}
+.homePagephotoText b{
+    position: absolute;
+    bottom:70%;
+    left: 42%;
+    font-size: xx-large;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.homePagephotoText a{
+    position: absolute;
+    bottom:60%;
+    left: 48%;
+    font-size: large;
+    border: rgb(12, 12, 12) 3px solid;
+    text-decoration: none;
+    background-color: snow;
+    width:200px;
+    
+    text-align: center;
+    padding:5px;
+}
+
+.homePagephotoText a:hover{
+    
+color: white;
+background-color: silver;
+}
+
+#first_advis_container{
+    width: 80%;
+    margin-top: 5%;
+  
+}
+
+#Macaron_photo{
+   
+    float: right;
+    clear: right;
+}
+
+#first_advis_container_text{
+    padding: 5% 0px;
+    margin-left: 30%;
+    float:left;
+    clear: left;
+    height: 400px;
+}
+
+#first_advis_container_text a{
+    font-size: large;
+    border: rgb(12, 12, 12) 3px solid;
+    text-decoration: none;
+    background-color: snow;
+    width:200px;
+    text-align: center;
+    padding:5px;
+}
+#first_advis_container_text a:hover{
+    
+    color: white;
+    background-color: silver;
+    }
+
+
+#second_advis_container{
+        width: 80%;
+        margin-top: 10%;
+}
+#second_advis_container::after{
+    content: "";
+    clear: both;
+}
+
+#cake_photo{
+    float:left;
+    clear: left;
+    margin-left: 20%;
+}
+#second_advis_container_text{
+        float:right;
+        clear: right;
+        margin-right: 10%;
+        padding: 13% 0%;
+}
+    
+#second_advis_container_text a{
+        font-size: large;
+        border: rgb(12, 12, 12) 3px solid;
+        text-decoration: none;
+        background-color: snow;
+        width:200px;
+        text-align: center;
+        padding:5px;
+}
+#second_advis_container_text a:hover{
+        
+        color: white;
+        background-color: silver;
+}
+
+
+h1{
+    clear:both;
+}
+
+.first_row{
+    margin: 0px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+
+.first_row img{
+    border:rgb(219, 207, 207) 5px solid;
+}
+
+.first_row img:hover{
+    border:rgb(8, 8, 8) 5px solid;
+}
+.goods{
+    display: flex;
+    width: 20%;
+    margin: 0px 10%;
+
+}
+
+.goods p {
+    text-align: right;
+}
+
+.goods a{
+    font-size: large;
+    border: rgb(12, 12, 12) 3px solid;
+    text-decoration: none;
+    background-color: snow;
+    width:200px;
+    text-align: center;
+    padding:5px;
+}
+.goods a:hover{
+    
+    color: white;
+    background-color: silver;
+}
+
+#footer{
+    background-color: rgb(97, 89, 89);
+    border: rgb(250, 245, 245) solid 1px;
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footer1{
+    padding:15px;
+    border: rgb(8, 8, 8) 1px solid;
+}
+
+#footer a:hover{
+    color: white;
+}
+#footer1 input{
+    width: 80%;
+}
+
+#footer2{
+    padding:15px;
+    border: rgb(8, 8, 8) 1px solid;
+}
+
+#footer2 a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#footer3{
+    border: rgb(8, 8, 8) 1px solid;
+}
+
+#footer3 a{
+    text-decoration: none;
+}
+
+#privacy a{
+    text-decoration: none;
+}
+
+#privacy a:hover{
+    color: rgb(139, 131, 131);
 }
